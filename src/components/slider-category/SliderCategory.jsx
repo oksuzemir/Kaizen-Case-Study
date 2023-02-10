@@ -16,7 +16,7 @@ const SliderCategory = () => {
       id: 1,
     },
     {
-      title: "Burger King",
+      title: "Coca Cola",
       icon: "./img/category-slider/category-slider-1.svg",
       id: 2,
     },
@@ -26,7 +26,7 @@ const SliderCategory = () => {
       id: 3,
     },
     {
-      title: "Burger King",
+      title: "Coca Cola",
       icon: "./img/category-slider/category-slider-1.svg",
       id: 4,
     },
@@ -36,7 +36,7 @@ const SliderCategory = () => {
       id: 5,
     },
     {
-      title: "Burger King",
+      title: "Coca Cola",
       icon: "./img/category-slider/category-slider-1.svg",
       id: 6,
     },
@@ -48,8 +48,8 @@ const SliderCategory = () => {
       id: 1,
     },
     {
-      title: "Burger King",
-      icon: "./img/category-slider/burger-king-icon.svg",
+      title: "Coca Cola",
+      icon: "./img/category-slider/coca-cola-icon.svg",
       id: 2,
     },
     { title: "Sprite", icon: "./img/category-slider/sprite-icon.svg", id: 3 },
@@ -78,7 +78,7 @@ const SliderCategory = () => {
                   className="slider-item"
                   onClick={() => filterSliders(item.title)}
                 >
-                  <img src={item.icon} alt={item.title} key={item.id} />
+                  <img className="tab-icons" src={item.icon} alt={item.title} key={item.id} />
                   <span>{item.title}</span>
                 </li>
               ))}

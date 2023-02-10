@@ -29,6 +29,10 @@
   margin-left: 5px;
 }
 
+.tab-icons{
+  width: 20px;
+
+}
 /* slider props */
 .category-slider {
   margin-top: 50px;
