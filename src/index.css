@@ -1,0 +1,34 @@
+/* Can't find the "DDHeader" font, so I used this one */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 1321px) {
+  .container{
+    padding: 0 20px;
+  }
+  
+}
